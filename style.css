@@ -1,5 +1,5 @@
 img {
-	padding-top: 52px;
+	padding-top: 180px;
 	margin: 0 auto;
 	text-align: -webkit-center;
 	display: block;
@@ -10,14 +10,15 @@ p {
 input {
 	margin: 20px 0 0 0;
 	height: 30px;
-	width: 350px;
+	width: 450px;
 	font-size: 16px;
 }
 button {
 	background-color: #eee;
 	border: none;
-	height: 40px;
+	height: 35px;
 	color: #444;
+    margin: 20px 2px 0;
 }
 
 ul {
@@ -29,19 +30,41 @@ ul {
 li {
 	display: inline;
 	float: left;
-	border: solid #eee 1px;
 }
 
 li a {
 	display: block;
 	padding:  8px;
 	text-align: center;
+    color: #555;
+    text-decoration: none;
 }
 
 .bar {
 	height: 40px;
 	position: fixed;
-	bottom: 0;
 	background-color: #eee;
 	width: 100%;
+    margin: 0;
+}
+
+#top {
+    background-color: white;
+}
+
+#bot {
+	bottom: 0;
+}
+
+.right{
+    float: right;
+}
+
+body {
+    font-family: Arial;
+    font-size: 13px;
+}
+
+li:last-child{
+    padding-right: 10px;
 }
